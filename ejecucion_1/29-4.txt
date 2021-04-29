@@ -1,0 +1,42 @@
+Precondiciones: auto con rueda pinchada, rueda de repuesto óptima, llave de cruz, gata hidráulica
+
+1 soltar pernos con llave sin sacarlos
+2 poner gata debajo del auto
+3 levantar el auto
+4 retirar rueda
+5 poner rueda de repuesto
+6 poner pernos
+7 bajar el auto
+8 apretar tuerca
+9 asegurar rueda de repuesto
+
+----------------------------
+Precondiciones: pañal, toallita, hipoglos, manta protectora, bolsa pañal sucio, agua, jabón
+
+1 poner manta en superficie plana
+2 abrir velcro
+3 retirar pañal
+3.1 toalla húmeda
+3.2 lavar con agua y jabón
+4 cambiar pañal
+5 ajustar velcro
+
+---------------------------
+Precondiciones: pc, internet,
+clave actual, número de teléfono,
+mail linkiado, usuario, computador,
+móvil
+
+1 Entrar en la página del correo.
+
+2. Logiarse.
+2.1 Si no se puede hacer el login, pasar a olvido de contraseña.
+2.2 Formas de obtener la clave.
+2.3.1 Uso otro mail.
+2.3.2 Mandar nueva clave a dicho mail.
+2.4.1 Número de telefono linkiado para ingresar.
+2.4.2 Revisar el celular y resignar otra contraseña atrevés del link de envió.
+
+3. Ingresar al cambio de contraseña
+4. Colocar contraseña actual, la nueva y repetir esta última.
+5. Aceptar y volver al perfil
