@@ -1,0 +1,107 @@
+precondiciones.
+
+querer comprar en una tienda especifica.
+acceso a internet.
+pc con electricidad o telefono celular.
+stock del producto.
+saldo en la cuenta bancaria.
+acceso a la cuenta del banco y clave.
+
+procesos.
+
+ingreso a la tienda
+buscar el producto deseado
+agregar al carro de compra
+ver si hay stock en el articulo.
+pagar el carrito o ver si quieres seguir comprando
+logearse en la pagina para poder pagar el carro
+pagar sin logearse
+ consulta de datos bancarios y de vivienda para poder comprar
+ver si lo quiere ir a buscar a la tienda o despacho a domicilio.
+completar el pago
+comprobante de pago
+envio de boleta electronica
+
+poscondiciones
+producto en manos del cliente.
+
+
+variable usuario, direccion, mail telefono, cuenta bancaia, stock valor del producto y direccion del cliene boleta
+cnte: rut empresa, nombre empresa, direccion empresa.
+
+
+
+------------------------------------
+
+
+pre-condicion: para empresa determinada.
+
+ 
+DATOS CONSTANTE: 
+
+Nombre empresa
+Rut empresa
+Dirección empresa
+Caja de compensación
+Mutual de seguridad
+Sueldo base
+Colación y Movilización 
+Dsco. Fonasa 7% 
+Seguro de cesantía
+
+DATOS VARIABLE:
+
+Fecha
+Nombre empleado
+Rut empleado
+Dirección empleado
+Fecha ingreso persona
+Código interno de la persona ID.
+Numero cuenta y Bco. empleado
+Bonos
+Impuesto a la renta
+Dsco. AFP
+
+
+--------------------------
+DATOS CONSTANTE: 
+
+NOMBRE PERSONA
+RUT DE LA PERSONA
+DSCTO 11.5% DE LA BOLETA
+
+DATOS VARIABLE:
+
+NOMBRE AL CUAL SE EMITE LA BOLETA
+DIRECCION SE EMITE LA BOLETA
+NUMERO DE LA BOLETA
+MOTIVO POR EL CUAL SE EMITE
+FECHA EMISION BOLETAR EL CUAL SE EMITE LA BOLETA
+CODIGO BARRA EMITIDO POR EL SII
+EL TIPO GIRO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,26 @@
+Precondiciones:
+manos limpias
+cuchillo limpio
+plato o tabla limpia
+ingredientes disponibles
+
+1. sacar plato y cuchillo
+2. sacar tomate
+2.1 lavar tomate
+2.2 cortar tomate
+3. sacar mayo
+3.1 abrir mayo
+4. sacar jamon
+5. cortar pan horizontalmente
+6. poner ingredientes en el pan
+7. cerrar pan
+
+poscondiciones: sentarse a comer
+
+
+
+
+
 Precondiciones: auto con rueda pinchada, rueda de repuesto óptima, llave de cruz, gata hidráulica
 
 1 soltar pernos con llave sin sacarlos
