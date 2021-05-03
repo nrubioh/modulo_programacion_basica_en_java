@@ -1,0 +1,110 @@
+Pensar en dos problemáticas las cuales podamos resolver aplicando tecnología (software), luego analizar y definir tres requerimientos funcionales y determinar todas las variables y constantes que pueden existir dentro de estos requerimientos para luego desarrollar el algoritmo para cada uno de estos.
+
+
+Posibles problemas:
+    - Calcular el presupuesto mensual.
+    - Calcular inventario en det. empresa
+
+
+Problema 1:
+
+Variable:
+    Lista de ingresos mensuales.
+    Aproximación de gastos variables por mes.
+
+Constantes
+    Gastos fijos por mes
+    Fondos de emergencias para cubrir imprevistos
+   
+    (Definir flujo de caja)
+    Determinan un punto de equilibrio y otro deseado.
+    Revisión de presupuesto mes x mes.	 
+    Control durante la vigencia del mismo y una revisión al final de su vida útil.
+      
+Problema 2:
+    Inventario inicial = Inventario final + Costo de la mercancía vendida – Compras durante el período.
+    
+    El stock mínimo es la cantidad básica de artículos que por seguridad se deben disponer en el almacén, para seguir ofreciendo el servicio o producto a los clientes.
+    El stock máximo: viene determinado por la capacidad de almacenaje que tenga el almacén y por la política de compras o aprovisionamiento.
+    El stock óptimo: se trata de obtener la máxima rentabilidad y reducir al mínimo los costos de almacenaje.
+
+REQ Funcionales.
+     -ingreso producto
+Variables:Stock Actual, Limite stock, nombre de producto, fecha de ingreso y compra del    producto,stock a ingresar.
+-Usuario ingresa producto a agregar 
+-se entrega stock actual y se informa en caso de superar limite de stock maximo para evitar ingreso
+-en caso de no haber errores se solicita ingresar stock de producto
+- se añade stock a agregar a stock actual
+-se entrega estado final de stock 
+-consulta producto
+Variables: Stock actual, limites de stock, Nombre producto
+-Usuario ingresa nombre de producto a consultar
+-se entrega el stock actual y se entrega limites de stock
+-se emite alerta en caso de stock actual estar fuera de rangos definidos por limites de stock
+-salida producto(venta)
+Variables: Nombre Producto, Stock producto, precio producto,datos empresa, datos cliente 
+    -cliente confirma compra compra
+-se realiza descuento de inventario
+-se actualiza stock del producto
+-se finaliza venta
+-se informa de estado de stock si este es critico
+   
+------------------------------    
+    tarea 2:
+algoritmo:compra en tienda virtual
+
+Requerimientos funcionales:
+    1.-  Buscar prod.
+    2.-  Agregar al carro
+    3.-  Comprar
+
+entradas:
+
+Variables
+usuario
+password
+productos
+cantidad de productos
+direccion envío
+datos medio de compra
+Constantes
+Tasa de IVA
+
+
+salidas
+- compra realizada
+- comprobante de compra
+
+
+-enceder computador
+-ingresar url
+-ingresar usuario
+-ingrsar password
+-navegar por los productos
+-se encuentra el producto buscado?
+        -si elproducto tiene stock 
+        -ingresar la cantidad deseada
+        -agregar al carro
+        -(1)si se desea seguir comprando 
+                - seleccionar otro producto
+                -ingresar la cantidad deseada
+                -agregar al carro
+                -repetir la pregunta anterior (1)
+        -si no
+                -ingresar direccion de despacho        
+                -seleccionar medio de pago
+                -confirmar pago
+                -volver al menu principal.
+
+-cerrar sesion
+
+variables
+ A = Nombre
+ B = Apellido
+Inicio.
+El nombre con el apellido es "A" +"B"
+Fin
+
+
+
+     
