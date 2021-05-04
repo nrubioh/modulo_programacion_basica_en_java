@@ -1,0 +1,146 @@
+definir n1, n2
+
+escribir "ingrese nota 1"
+n1= leer nota 1
+escribir "ingrese nota 2"
+n2= leer nota 2
+
+ resultado = n1 + n2
+ 
+escribir: "La suma es: " + resultado
+----------------------------------------------
+
+definir n1, n2, n3
+
+escribir "ingrese nota 1"
+n1= leer nota 1
+escribir "ingrese nota 2"
+n2= leer nota 2
+escribir "ingrese nota 3"
+n3= leer nota 3
+
+promedio = (n1+n2+n3) / 3
+
+escribir: "el promedio es" + promedio
+-----------------------------------------------
+
+definir n1
+
+escribir "ingrese numero"
+n1= leer numero
+
+cuadrado = n1^2
+
+escribir: "el cuadrado del numero es" + cuadrado
+------------------------------------------------
+
+
+definir el monto para el banco
+
+m1 = monto
+leer el monto m1
+
+m2 = montoNuevo
+leer monto m2
+
+m2 = m1*0.02 + m1
+
+escribir: "el pago mensual es: " + m2
+------------------------------------------------
+1.- Realizar un algoritmo en pseudocódigo que pida ingresar el modelo y la marca de un vehículo y me muestre por pantalla los datos ingresados.
+Ingresar marca de vehículo
+V1 = marca de vehículo
+Leer v1
+Ingresar modelo de vehículo
+V2 = modelo del vehículo
+Leer v2
+
+
+"la marca de vehiculo es" + v1 + "y el modelo es" + v2
+
+M1 = Modelo vehiculo --> Variable 
+M2 = Marca vehiculo --> Variable
+Resultado = 
+
+INICIO
+	"Escribir M1"
+	"Leer M1"
+	"Escribir M2"
+	"Leer M2"
+	Print: “El modelo de su vehículo es: “ +  M1  + “y la marca”  + M2
+`El modelo de su vehículo es : ${M1} y la marca ${M2}`
+FIN
+
+2. Realizar un algoritmo en pseudocódigo que permita calcular el porcentaje solicitado de un número ingresado 
+
+V% = variable porcentaje
+VN = variable numero
+R = variable resultado
+
+escribir ingrese variable número : “”
+leer numero 
+escribir ingrese variable porcentaje: “”
+leer porcentaje
+R =(VN/100)*V%
+Escribir : “El ”+ V% + “% de” + VN  + “es” + R 
+
+
+3. Realizar un algoritmo en pseudocódigo que para resolver el siguiente problema: "Un vendedor recibe un sueldo base más un 10% de comisión de sus venta, el vendedor desea saber cuánto dinero obtendrá por concepto de mis comisiones por tres ventas que realiza en el mes y el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.  
+
+variable sueldo_base
+variable cant_ventas
+variable monto_ventas
+variable resultado
+
+constante porc_ventas =10
+
+escribir " ingrese su sueldo base : "
+leer sueldo_base
+escribir " ingrese su monto de ventas : "
+leer monto_ventas
+
+resultado=(monto_ventas*porc_ventas)/100
+
+escribir "comisiones por ventas: ", resultado
+escribir "sueldo total: ", sueldo_base+resultado
+
+
+-----------------------------------------------------
+
+Variables n1, n2, nA
+
+Introducir 1er numero
+Leer 1er numero 
+
+Introducir 2do numero
+Leer 2do numero 
+
+nA = n1
+n1 = n2
+n2 = nA
+
+Print: "el nuevo valor del 1er numero es: " + n1
+Print: "el nuevo valor del 2do numero es: " + n2
+
+-----------------------------------------------------
+
+Variables A, B
+
+Introducir 1er numero
+Leer 1er numero 
+
+Introducir 2do numero
+Leer 2do numero 
+
+a=X
+b=Y
+a=X+Y
+b=X-Y
+a=X-Y
+a
+b
+
+Print: "el nuevo valor de A es: " + A
+Print: "el nuevo valor de B es: " + B
+
+
