@@ -1,0 +1,231 @@
+Ejercicios 
+
+1)Crear algortimos para resolver los siguientes problemas
+determinar si un numero ingresado es par o impar
+
+inicio
+
+variable
+numero = X
+---------------
+si (X%2==0)
+   escribir"el numero es par"
+sino 
+   escribir"es impar"
+fin si
+   
+
+2) Determinar si un numero ingresado es multiplo o no de 2
+
+inicio
+
+variable
+numero = X
+---------------
+si (X%2==0)
+   escribir"el numero es multiplo de 2"
+sino 
+   escribir" el número no es multiplo de 2"
+fin si
+
+
+3) Determinar si un numero ingresado es multiplo o no de 3
+
+inicio
+
+definir num
+
+escribir"ingrese numero"
+num = leer numero
+
+si(num mod 3 == 0)
+        escribir: "el número es multiplo de 3"
+        
+sino
+        escribir: "el número no es multiplo de 3"
+
+fin si
+
+-------------------------
+crear algortirmo para resolver != problemas
+que permita det cual es el mayor de los 2 num.
+
+si(n1 > n2)
+escribir: "el número mayor es" + n1
+
+sino si (n1 < n2)
+escribir: "el número mayor es" + n2
+
+sino
+escribir "ambos numeros son iguales"
+
+fin si
+-------------
+
+1. Determinar si la suma de dos números ingresados es positiva, negativa o cero.
+
+inicio
+
+Variables: n1, n2
+ 
+Si (n1+n2)> 0:
+               Print("positivo")
+Si no también (n1+n2)<0:
+               Print(“negativo”)
+Sino:
+               Print(“es cero”)
+fin si
+-------------
+
+2. Indicar si un número es divisible por 2 y por 5 al mismo tiempo.
+
+variable: x
+
+si (X%10==0)
+   escribir"el numero es divisible por 2 ^ 5"
+sino 
+   escribir"no es divisible por 2 ^ 5" 
+fin si
+--------------
+
+3. Determinar cuál es el mayor de 3 números ingresados.
+
+
+inicio
+
+variables: n1, n2, n3
+
+// Comprar n1 y n2
+si (n1>n2)
+  Si (n1 > n3)
+     Print (n1)
+   si no
+     print (n3)
+si no
+// Comparar n2 y n3
+si (n2>n3)
+   print (n2)
+sino
+   print (n3)
+fin si
+ 
+
+otra forma
+n1 = 1000
+n2= 250
+n3  = 400
+na = n1
+
+if (na<n2):
+    na = n2
+    
+    if na<n3:
+        na=n3
+else:
+    if na < n3:
+        na = n3
+
+print(na)
+-------------------------
+
+variables
+n1 = X
+n2 = Y
+Operacion = 1-4
+Resultado = 0
+
+si(operacion ==1)
+  Resultado = n1+n2
+  Print("el resultado es: " R)
+sino, si(operacion ==2)
+  Resultado = n1*n2
+  Print("el resultado es: " R)
+sino, si(operacion ==3)
+  Resultado = n1-n2
+  Print("el resultado es: " R)
+sino, si(operacion ==4)
+  Resultado = n1/n2
+  Print("el resultado es: " R)
+sino
+  Print("la Op no E")
+
+----------------------------
+
+
+int i = 1
+
+para (i =1; i<=5 ; i++)
+ si ( i < 5 ) 
+ escribir ( i ", ")
+ sino
+ escribir ("i" )
+ 
+lectura: 
+    "1 ,2 ,3 , 4, 5"
+    
+fin
+
+ 
+---------------------
+Búsqueda Secuencial
+
+La búsqueda secuencial busca un elemento de una lista utilizando un valor destino llamado clave.
+En una búsqueda secuencial, los elementos de una lista o vector se exploran en secuencia
+
+Búsqueda Binaria
+
+Para utilizar este algoritmo, el arreglo debe estar ordenado y no se deben repetir los elementos. La búsqueda binaria consiste en dividir el arreglo en dos subarreglos más pequeños, y comparar el elemento con el del centro. Si coinciden, la búsqueda se termina. En cada iteración el arreglo se divide en dos.
+
+Búsqueda Hashing
+
+El método llamado por transformación de claves (hash), permite aumentar la velocidad de búsqueda sin necesidad de tener los elementos ordenados. Cuenta también con la ventaja de que el tiempo de búsqueda es prácticamente independiente del número de componentes del arreglo. Trabaja basándose en una función de transformación o función hash (H) que convierte una clave en una dirección (índice) dentro del arreglo
+
+
+
+ALGORITMOS DE ORDENAMIENTO
+
+Ordenamiento de Burbuja
+
+Consiste en ciclar repetidamente a través de la lista, comparando elementos adyacentes de dos en dos. Si un elemento es mayor que el que está en la siguiente posición se intercambian.
+
+for (i=1; i<TAM; i++)
+for j=0 ; j<TAM – 1; j++)
+if (lista[j] > lista[j+1])
+temp = lista[j];
+lista[j] = lista[j+1];
+lista[j+1] = temp;
+
+
+Ordenamiento por Inserción
+es un algoritmo de fácil aplicación que permite el ordenamiento de una lista.
+Su funcionamiento consiste en el recorrido por la lista seleccionando en cada iteración un valor como clave y compararlo con el resto insertándolo en el lugar correspondiente.
+
+Tomo la primera y la coloco en mi mano. Luego tomo la segunda y la comparo con la que tengo: si es mayor, la pongo a la derecha, y si es menor a la izquierda. Después tomo la tercera y la comparo con las que tengo en la mano, desplazándola hasta que quede en su posición final. Continúo haciendo esto, insertando cada carta en la posición que le corresponde, hasta que las tengo todas en orden.
+
+
+Ordenamiento por selección
+
+Consiste en encontrar el menor de todos los elementos del vector e intercambiarlo con el que está en la primera posición. Luego el segundo mas pequeño, y así sucesivamente hasta ordenarlo todo
+
+Ordenamiento con árbol binario
+
+
+
+Ordenamiento Shell
+
+Cualquier algoritmo de ordenación que intercambia elementos adyacentes (como los algoritmos burbuja, selección o inserción) tiene un tiempo promedio de ejecución de orden cuadrático (n2). El método Shell mejora este tiempo comparando cada elemento con el que está a un cierto número de posiciones llamado salto, en lugar de compararlo con el el que está justo a su lado. Este salto es constante, y su valor inicial es N/2 (siendo N el número de elementos, y siendo división entera).
+Se van dando pasadas con el mismo salto hasta que en una pasada no se intercambie ningún elemento de sitio. Entonces el salto se reduce a la mitad, y se vuelven a dar pasadas hasta que no se intercambie ningún elemento, y así sucesivamente hasta que el salto vale 1.
+
+
+Ordenamiento rápido (Quicksort)
+
+La idea del algoritmo es simple, se basa en la división en particiones de la lista a ordenar, por lo que se puede considerar que aplica la técnica divide y vencerás. El método es, posiblemente, el más pequeño de código, más rápido, más elegante, más interesante y eficiente de los algoritmos de ordenación conocidos.
+
+Ordenamiento por montículos
+
+ (Heapsort)
+ 
+ Ordenación por mezcla
+ 
+Este algoritmo consiste básicamente en dividir en partes iguales la lista de números y luego mezclarlos comparándolos, dejándolos ordenados.
+Si se piensa en este algoritmo recursivamente, podemos imaginar que dividirá la lista hasta tener un elemento en cada lista, luego lo compara con el que está a su lado y según corresponda, lo sitúa donde corresponde.
