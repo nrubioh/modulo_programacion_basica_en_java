@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuintaApp</string>
+    <string name="botonSgte">Siguiente</string>
+    <string name="tv1">Primer Activity</string>
+    <string name="tv2">Segundo Activity</string>
+    <string name="botonAnterior">Anterior</string>
+    <string name="et_n1">Nombre</string>
+    <string name="tv3">Nombre</string>
+    <string name="botonEnviar">Enviar</string>
+</resources>

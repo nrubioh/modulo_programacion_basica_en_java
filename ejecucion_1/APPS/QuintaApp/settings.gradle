@@ -1,0 +1,2 @@
+rootProject.name = "QuintaApp"
+include ':app'

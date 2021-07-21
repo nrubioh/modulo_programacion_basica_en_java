@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SextaAppSwitch</string>
+    <string name="id_TextView1">Encendido o apagado de calculadora</string>
+    <string name="id_editTextNumber1">Primer Valor</string>
+    <string name="id_editTextNumber2">Segundo Valor</string>
+    <string name="id_TextView2">Resultado:</string>
+    <string name="id_Switch1">Encendido de Calculadora</string>
+    <string name="id_Switch2">Mostrar Resultado</string>
+    <string name="id_Button">Calcular</string>
+</resources>

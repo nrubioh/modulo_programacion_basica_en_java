@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CuartaApp</string>
+    <string name="txtN1">Ingrese Numero 1</string>
+    <string name="txtN2">Ingrese Numero 2</string>
+    <string name="cb1">Sumar</string>
+    <string name="cb2">Restar</string>
+    <string name="cb3">Multiplicar</string>
+    <string name="cb4">Dividir</string>
+    <string name="bt1">Calcular</string>
+    <string name="TextView_result">Resultado</string>
+</resources>
